@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.menu-container{
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #5995DA;
+}
+.menu{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    margin-left: 20px;
+}
+
+
+
+
+.logoPlace,
+.buttons,
+.footer{
+    display: flex;
+}
+
+
+.logoPlace{
+    display: flex;
+    justify-content: center;
+    background-color: #D6E9FE;
+}
+.inLogo{
+    width: 950px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe{
+    color: #5995DA;
+}
+
+.awesome{
+    font-size: 2.5em ;
+    color: #5995DA;
+}
+.icons img{
+    padding: 20px 0px;
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.photo-grid{
+    display: flex;
+    padding: 0;
+    width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first-item{
+    order: 1;
+}
+.last-item{
+    order: -1;
+}
+
+
+.photo-grid-item,
+.photo-grid-item img{
+    padding:0;
+}
+.photo-grid-item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-one,
+.footer-two{
+    background-color: #5995DA;
+    border: 1px solid #fff;
+    height: 200px;
+    flex: initial;
+    width: 300px;
+}
+.footer-two{
+    flex:2;
+    background-color: #D6E9FE;
+}
